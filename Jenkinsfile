@@ -4,7 +4,7 @@ pipeline {
 
         stage('Sanity check') {
             steps {
-                input "Testing input?"
+                input "WARNING THIS IS PRODUCTION PIPELINE! Do you want to proceed?"
             }
         }
 
