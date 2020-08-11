@@ -1,4 +1,6 @@
 #!/bin/sh
 
+cd /home/ubuntu/dd-reborn-micro
+
 sudo docker-compose up -d
 sudo docker-compose run app sh -c "python manage.py test && flake8"
