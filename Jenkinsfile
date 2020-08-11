@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('stage') {
             steps {
-                sh 'pwd'
+                sh './testing'
             }
         }
     }
