@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello skip world!"'
+                sh 'echo "Hello skip world! 2"'
             }
         }
     }
