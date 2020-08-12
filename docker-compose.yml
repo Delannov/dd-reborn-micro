@@ -15,5 +15,6 @@ services:
         - kong-net
 
 networks:
-  kong-net:
-    driver: bridge
+  default:
+    external:
+      name: kong-net
