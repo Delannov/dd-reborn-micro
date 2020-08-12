@@ -25,7 +25,7 @@ SECRET_KEY = 'xh*zj^9guwe+g=!@z5fpl!n*ooio$u&(l^9sh%d3je=(=&g^xa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-13-212-19-3.ap-southeast-1.compute.amazonaws.com', 'dd-reborn-micro_app_1']
+ALLOWED_HOSTS = ['ec2-13-212-19-3.ap-southeast-1.compute.amazonaws.com', 'dd-reborn-app']
 
 
 # Application definition
